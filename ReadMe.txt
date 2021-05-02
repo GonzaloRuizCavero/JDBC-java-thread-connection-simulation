@@ -1,6 +1,8 @@
-
+Simulation of a JDBC connection between 5 different hospitals which report cases to a central database via a JDBC connection. This code has a thread structure (in which each thread is a hospital) and each of them will stop when the maximum capacity of cases of each hospital is reached (100.000 cases)
 
 In order to make it work, make sure of the following:
+
+- First start the "Server" code, and then start the "Hospitals" code sequentially (you can set any number of hospital that you like).
 
 - You have an APACHE server active (or any other listening server)
 
