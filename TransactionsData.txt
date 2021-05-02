@@ -1,0 +1,61 @@
+Without Using transactions and disabling Auto commit:
+
+Enabling Auto Commit: The registration of the cases is perfect
+
+Disabling Auto Commit:
+
+- With 5 hospitals and 10 ms of thread sleep: 
+	- Hospital 1: 1840
+	- Hospital 2: 1397
+	- Hospital 3: 2334
+	- Hospital 4: 2130
+	- Hospital 5: 1588
+	- Total: 9288
+The cases are saved perfectly.
+
+- With 5 hospitals and 100 ms of thread sleep: 
+	- Hospital 1: 2593
+	- Hospital 2: 1957
+	- Hospital 3: 1504
+	- Hospital 4: 1399
+	- Hospital 5: 1108
+	- Total: 8560
+The cases are saved perfectly.
+
+- With 5 hospitals and 200 ms of thread sleep: 
+	- Hospital 1: 2262
+	- Hospital 2: 1739
+	- Hospital 3: 1699
+	- Hospital 4: 1494
+	- Hospital 5: 1557
+	- Total: 8747
+The cases are saved perfectly.
+
+Introducing transactions:
+
+- With 5 hospitals and 10 ms of thread sleep: 
+	- Hospital 1: 3263
+	- Hospital 2: 2789
+	- Hospital 3: 2588
+	- Hospital 4: 2537
+	- Hospital 5: 2476
+	- Total: 13651
+The cases are saved perfectly.
+
+- With 5 hospitals and 100 ms of thread sleep: 
+	- Hospital 1: 2982
+	- Hospital 2: 2387
+	- Hospital 3: 2425
+	- Hospital 4: 2338
+	- Hospital 5: 2125
+	- Total: 12256
+The cases are saved perfectly.
+
+- With 5 hospitals and 200 ms of thread sleep: 
+	- Hospital 1: 3002
+	- Hospital 2: 2836
+	- Hospital 3: 2640
+	- Hospital 4: 2471
+	- Hospital 5: 2465
+	- Total: 13412
+The cases are saved perfectly.
